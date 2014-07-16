@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+<head>
+  <title>About page</title>
+  <meta charset="utf-8" />
+</head>
+<body>
+  <h1>About says...</h1>
+  This is the about page! <strong>{{ boldmessage }}</strong><br/>
+  <a href="/rango">Index</a><br/>
+  <img src="{% static "about.jpg" %}" alt="Picture of About"/>
+</body>
+</html>
